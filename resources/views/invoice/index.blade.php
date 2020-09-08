@@ -3,5 +3,5 @@
 @section('title', 'Invoices')
 
 @section('content')
-    <example-component></example-component>
+    <invoice-component></invoice-component>
 @endsection
