@@ -28,8 +28,6 @@ class InvoiceController extends Controller
         $invoice->nip_seller = $request->nip_seller;
         $invoice->product_name = $request->product_name;
         $invoice->net_price = $request->net_price;
-        $invoice->create_date = $request->create_date;
-        $invoice->edit_date = $request->edit_date;
         $invoice->save();
 
         return response('ok',200);
@@ -52,12 +50,6 @@ class InvoiceController extends Controller
         }
         if (!empty($request->net_price)){
             $invoice->net_price = $request->net_price;
-        }
-        if (!empty($request->create_date)){
-            $invoice->create_date = $request->create_date;
-        }
-        if (!empty($request->edit_date)){
-            $invoice->edit_date = $request->edit_date;
         }
 
         $invoice->save();

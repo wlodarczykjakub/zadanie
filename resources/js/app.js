@@ -21,10 +21,18 @@ window.Vue = require('vue');
 
 import { BPagination } from 'bootstrap-vue'
 import { BTable } from 'bootstrap-vue'
+import { BModal } from 'bootstrap-vue'
+import { VBModal } from 'bootstrap-vue'
+import { BButton } from 'bootstrap-vue'
+
 import moment from 'moment'
 
 Vue.component('b-pagination', BPagination);
 Vue.component('b-table', BTable);
+Vue.component('b-modal', BModal)
+Vue.component('b-button', BButton)
+Vue.directive('b-modal', VBModal)
+
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('invoice-component', require('./components/InvoiceComponent.vue').default);
