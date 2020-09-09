@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9ef52c8e-91e5-43ce-8698-27eb5655f525" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/InvoiceComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/InvoiceComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -168,7 +166,7 @@
       <updated>1599566695873</updated>
       <workItem from="1599566696993" duration="133000" />
       <workItem from="1599567115879" duration="4580000" />
-      <workItem from="1599648119545" duration="13296000" />
+      <workItem from="1599648119545" duration="18863000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1599567243166</created>
@@ -205,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599650648900</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create invoice form zrobiony">
+      <created>1599661666462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599661666462</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,27 +222,28 @@
     <MESSAGE value="gotowe API" />
     <MESSAGE value="paginacja w trakcie" />
     <MESSAGE value="poprawione dodawanie paczek do package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawione dodawanie paczek do package.json" />
+    <MESSAGE value="create invoice form zrobiony" />
+    <option name="LAST_COMMIT_MESSAGE" value="create invoice form zrobiony" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2608" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599576805840">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2608" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599576805840" />
-    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1599650648304">
+    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1599661665977">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599567242602" />
-    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599650648304" />
+    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599661665977" />
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1599567580744">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599567580744" />
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1599650651304">
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1599661667333">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599567245294" />
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599650651304" />
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599661667333" />
     <state x="2480" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599583072591">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

@@ -20,4 +20,6 @@ Route::get('/get-all', [InvoiceController::class, 'getAll'])->name('get.all');
 
 Route::post('/create', [InvoiceController::class, 'create'])->name('create');
 
-Route::delete('/delete/{id}', [InvoiceController::class, 'delete'])->name('delete');
+Route::put('/update', [InvoiceController::class, 'update'])->name('update');
+
+Route::post('/delete', [InvoiceController::class, 'delete'])->name('delete');
