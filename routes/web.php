@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [InvoiceController::class, 'index'])->name('index');
 
 Route::get('/get-all', [InvoiceController::class, 'getAll'])->name('get.all');
+
+Route::delete('/delete/{id}', [InvoiceController::class, 'delete'])->name('delete');

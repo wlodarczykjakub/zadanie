@@ -14,7 +14,5 @@ class Invoice extends Model
         'nip_seller',
         'product_name',
         'net_price',
-        'create_date',
-        'edit_date',
     ];
 }

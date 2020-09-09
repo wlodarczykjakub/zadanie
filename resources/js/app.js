@@ -21,13 +21,20 @@ window.Vue = require('vue');
 
 import { BPagination } from 'bootstrap-vue'
 import { BTable } from 'bootstrap-vue'
-
+import moment from 'moment'
 
 Vue.component('b-pagination', BPagination);
-Vue.component('b-table', BTable)
+Vue.component('b-table', BTable);
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('invoice-component', require('./components/InvoiceComponent.vue').default);
+
+
+Vue.filter('formatDate', function(value) {
+    if (value) {
+        return moment(String(value)).format('MM/DD/YYYY hh:mm');
+    }
+});
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

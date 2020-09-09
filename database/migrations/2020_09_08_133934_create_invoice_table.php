@@ -16,12 +16,10 @@ class CreateInvoiceTable extends Migration
         Schema::create('invoice', function (Blueprint $table) {
             $table->id();
             $table->integer('number');
-            $table->bigInteger('nip_buyer');
-            $table->bigInteger('nip_seller');
+            $table->string('nip_buyer');
+            $table->string('nip_seller');
             $table->string('product_name');
             $table->decimal('net_price');
-            $table->date('create_date');
-            $table->date('edit_date');
             $table->timestamps();
         });
     }
